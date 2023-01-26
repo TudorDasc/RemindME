@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">RemindME</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+
+    <!--    shared preferences-->
+    <string name="preference_file_key">sharedPrefs</string>
+
+    <string name="logo">logo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="select_courses">Select courses</string>
+    <string name="search">Search</string>
+    <string name="login">Login</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Enter_email" />
+    <string name="confirm" />
+    <string name="Settings">Settings</string>
+    <string name="Meetings">Meetings</string>
+    <string name="New">New</string>
+    <string name="Courses">Courses</string>
+    <string name="Chats">Chats</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="string_logout">Logout</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="course_code">Course code</string>
+    <string name="see_tutor_list">See tutor list</string>
+    <string name="see_tutor_listt">See tutor list...</string>
+    <string name="tutor_list">Tutor list</string>
+    <string name="title_activity_account_settings">Account_Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Updates"> Updates </string>
+    <string name="Persons">Persons</string>
+    <string name="Routines">Routines</string>
+    <string name="from">From:...</string>
+    <string name="full_name">Full Name</string>
+    <string name="description">Description</string>
+    <string name="add_person">Add person</string>
+    <string name="add_routines">Add routines</string>
+    <string name="elderly_name">elderly name</string>
+    <string name="description_text">description</string>
+    <string name="description_of_elderly_person">description of elderly person</string>
+    <string name="routine_name">Routine name</string>
+    <string name="Steps">Steps</string>
+    <string name="Steps1">Step 1</string>
+    <string name="Steps2">Step 2</string>
+    <string name="Steps3">Step 3</string>
+
+
+</resources>

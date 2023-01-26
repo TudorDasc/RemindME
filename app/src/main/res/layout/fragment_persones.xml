@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeMenu.persones"
+    android:id="@+id/persones">
+
+    <TextView
+        android:id="@+id/newChatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/Persons"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newChatText"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Add new elderly person"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@color/teal_200"
+        app:icon="@drawable/newicon" />
+
+    <Button
+        android:id="@+id/search_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_person"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Search for a person"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:backgroundTint="@color/purple_200"
+        app:icon="@drawable/eyeglassicon" />
+
+    <TextView
+        android:id="@+id/newCourseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_person"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="32dp"
+        android:text="@string/Routines"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add_routine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newCourseText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Create new routine"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:theme="@style/Button.New"
+        app:backgroundTint="@color/teal_200"
+        app:icon="@drawable/newicon" />
+</RelativeLayout>

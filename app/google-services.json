@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1095841351613",
+    "firebase_url": "https://use-iot-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "use-iot",
+    "storage_bucket": "use-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095841351613:android:b23e7c48b171c82ff074d4",
+        "android_client_info": {
+          "package_name": "com.example.remindme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095841351613-dba67op851b7pdmeeqgd035vc6f8i0o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSRIQiUQiem67YB5A9e-zqrENEMOZLw84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095841351613-dba67op851b7pdmeeqgd035vc6f8i0o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
